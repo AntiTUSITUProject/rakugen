@@ -1,51 +1,36 @@
 import { defineConfig } from 'vitepress'
 
+import sidebar from './sidebar'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "rakugen",
-  description: "A rakugen site",
-  srcDir: 'src',
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    title: 'Rakugen',
+    description: 'A Rakugen Rite',
+    srcDir: 'src',
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Directory', link: '/directory' }
+        ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+        sidebar: sidebar,
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/alongw/rakugen' }],
 
-    search: {
-      provider: 'local'
+        search: {
+            provider: 'local'
+        },
+
+        editLink: {
+            pattern: 'https://github.com/alongw/rakugen/edit/main/hub/:path',
+            text: 'Edit this page on GitHub'
+        }
     },
-
-    editLink: {
-      pattern: 'https://github.com/alongw/rakugen/edit/main/hub/:path',
-      text: 'Edit this page on GitHub'
-    }
-  },
-  markdown: {
-    container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
-      detailsLabel: '详细信息'
+    markdown: {
+        image: {
+            lazyLoading: true
+        }
     },
-    image: {
-      lazyLoading: true
-    }
-  },
-  lastUpdated: true
+    lastUpdated: true
 })
