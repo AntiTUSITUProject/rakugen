@@ -5,8 +5,9 @@ const props = defineProps<{
     users: {
         title: string
         desc: string
-        img?: any
+        img: any
         intr: string
+        link?: string
     }[]
 }>()
 </script>
@@ -33,7 +34,10 @@ const props = defineProps<{
                 </div>
             </div>
             <div class="intr">
-                <p>{{ user.intr }}</p>
+                <p>
+                    {{ user.intr }}
+                    <a v-if="user.link" :href="user.link">相关页面</a>
+                </p>
             </div>
         </div>
     </div>
@@ -73,6 +77,7 @@ const props = defineProps<{
                 .desc {
                     p {
                         margin: 0;
+                        max-width: 200px;
                     }
                 }
             }

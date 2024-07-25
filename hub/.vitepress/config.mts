@@ -23,7 +23,7 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: 'https://github.com/alongw/rakugen/edit/main/hub/:path',
+            pattern: 'https://github.com/alongw/rakugen/edit/main/hub/src/:path',
             text: 'Edit this page on GitHub'
         }
     },

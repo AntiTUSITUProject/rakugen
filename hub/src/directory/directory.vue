@@ -6,14 +6,24 @@ const users: {
     desc: string
     img?: any
     intr: string
-}[] = []
+    link?: string
+}[] = [
+    {
+        title: 'User 11111',
+        desc: '专业架构师、架构师、架构师、架构师、架构师、架构师',
+        img: `https://www.loliapi.com/acg/pp`,
+        intr: '尤雨溪是出生于中国江苏省无锡市的程序员，为JavaScript编程语言所使用Web应用框架“Vue.js”的发起者和开发者。尤雨溪是出生于中国江苏省无锡市的程序员，为JavaScript编程语言所使用Web应用框架“Vue.js”的发起者和开发者。尤雨溪是出生于中国江苏省无锡市的程序员，为JavaScript编程语言所使用Web应用框架“Vue.js”的发起者和开发者。',
+        link: '/test'
+    }
+]
 
 for (let i = 0; i < 10; i++) {
     users.push({
         title: 'User ' + i,
         desc: '专业架构师、架构师、架构师',
         img: `https://www.loliapi.com/acg/pp?s=${i}`,
-        intr: '尤雨溪是出生于中国江苏省无锡市的程序员，为JavaScript编程语言所使用Web应用框架“Vue.js”的发起者和开发者。'
+        intr: '尤雨溪是出生于中国江苏省无锡市的程序员，为JavaScript编程语言所使用Web应用框架“Vue.js”的发起者和开发者。',
+        link: '/test'
     })
 }
 </script>
