@@ -8,6 +8,11 @@ const props = defineProps<{
         img: any
         intr: string
         link?: string
+        tag: {
+            show: boolean
+            content: string
+            color: 'pink' | 'blue' | 'green' | 'cyan' | 'red' | 'purple' | 'orange'
+        }
     }[]
 }>()
 </script>
@@ -27,6 +32,9 @@ const props = defineProps<{
                 <div class="info">
                     <div class="title">
                         <h3>{{ user.title }}</h3>
+                        <div v-if="user.tag.show" :class="['tag', user.tag.color]">
+                            {{ user.tag.content }}
+                        </div>
                     </div>
                     <div class="desc">
                         <p>{{ user.desc }}</p>
@@ -44,6 +52,8 @@ const props = defineProps<{
 </template>
 
 <style scoped lang="less">
+@import url('./../assets/style/tagColor.less');
+
 .user-card-group {
     display: flex;
     gap: 1rem;
@@ -69,8 +79,22 @@ const props = defineProps<{
 
             .info {
                 .title {
+                    display: flex;
+
                     h3 {
                         margin: 0;
+                    }
+
+                    .tag {
+                        box-sizing: border-box;
+                        height: 25px;
+                        margin-left: 8px;
+                        padding: 0 5px;
+                        border-radius: 4px;
+                        font-size: 12px;
+                        line-height: 25px;
+                        // background-color: #ff5500;
+                        // color: white;
                     }
                 }
 
