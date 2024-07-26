@@ -4,7 +4,10 @@ const sidebar: DefaultTheme.Sidebar = [
     {
         text: 'Main',
         items: [
-            { text: 'Directory', link: '/directory' },
+            {
+                text: 'Directory',
+                link: '/directory'
+            },
             {
                 text: 'About',
                 link: '/about'
