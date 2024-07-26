@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import UserCardComponent from '../components/userCard.vue'
+import UserCardComponent from '../components/UserCard.vue'
 
 interface User {
     title: string
