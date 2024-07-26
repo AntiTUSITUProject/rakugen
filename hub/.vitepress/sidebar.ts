@@ -23,7 +23,16 @@ const sidebar: DefaultTheme.Sidebar = {
                 {
                     text: '连续剧',
                     collapsed: false,
-                    items: []
+                    items: [
+                        {
+                            text: '保证书',
+                            link: '/projects/保证书'
+                        },
+                        {
+                            text: '逼哥传',
+                            link: '/projects/逼哥传'
+                        }
+                    ]
                 },
                 {
                     text: '一般乐子',
@@ -38,7 +47,12 @@ const sidebar: DefaultTheme.Sidebar = {
                 {
                     text: '合集',
                     collapsed: false,
-                    items: []
+                    items: [
+                        {
+                            text: '合集1',
+                            link: '/projects/合集1'
+                        }
+                    ]
                 }
             ]
         }
