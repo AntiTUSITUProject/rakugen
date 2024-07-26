@@ -19,7 +19,7 @@ const continuous: User[] = [
     {
         title: '保证书传',
         desc: '群组创建大师，带领专业团队拥有三年开服经验。',
-        img: 'https://smms.app/image/Zhb1arnupRIelWD',
+        img: 'https://s2.loli.net/2024/07/26/Zhb1arnupRIelWD.jpg',
         intr: '保证书（昵称）带领的服务器曾拳打 Hypixel 脚踢 2B2T，揪出了一个又一个的内鬼，现在已经拥有了一个强大的服务器体系。',
         tag: {
             show: true,
@@ -31,7 +31,7 @@ const continuous: User[] = [
     {
         title: '逼哥',
         desc: '一个有着丰富经验的大佬，又有权又有势~',
-        img: 'https://smms.app/image/JfRzbWQPZciy9e2',
+        img: 'https://s2.loli.net/2024/07/26/JfRzbWQPZciy9e2.jpg',
         intr: '逼哥是一个有着丰富经验的大佬，曾开发带有 Q 绑查询功能的高级主页，其具有先进的权限控制系统，当查询到其自己时会返回「不可以呦~」。',
         tag: {
             show: false
@@ -45,7 +45,7 @@ const normal: User[] = [
     {
         title: '技术の北~',
         desc: 'MC 服务器后端大佬，拥有丰富的互联网冲浪经验。',
-        img: 'https://smms.app/image/jrGZyqcQHzLd6MA',
+        img: 'https://s2.loli.net/2024/07/26/jrGZyqcQHzLd6MA.jpg',
         intr: 'MC 服务器后端大佬，自赋「技术の北~」，「可爱的男孩子」，「mc域名解析大佬」，「MC服务器高手」等称号',
         tag: {
             show: true,
