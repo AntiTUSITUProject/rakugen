@@ -207,7 +207,7 @@ description: MC 服务器后端大佬
 
 ![image-20240410195601931](./assets/image-20240410195601931.png)
 
-![img](./assets/{9C9AD14D-1C01-4FFC-9AD6-9012530E146A})
+![img](./assets/9C9AD14D-1C01-4FFC-9AD6-9012530E146A.png)
 
 （啊？这是复制粘贴都不带修改的？）
 

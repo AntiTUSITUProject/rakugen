@@ -17,10 +17,10 @@ interface User {
 // 连续剧
 const continuous: User[] = [
     {
-        title: '保证书',
+        title: '保证书传',
         desc: '群组创建大师，带领专业团队拥有三年开服经验。',
         img: './imgs/baozhengshu.jpg',
-        intr: '保证书带领自己的服务器曾拳打 Hypixel 脚踢 2B2T，揪出了一个又一个的内鬼，现在已经拥有了一个强大的服务器体系。',
+        intr: '保证书（昵称）带领的服务器曾拳打 Hypixel 脚踢 2B2T，揪出了一个又一个的内鬼，现在已经拥有了一个强大的服务器体系。',
         tag: {
             show: true,
             content: '典中典',
