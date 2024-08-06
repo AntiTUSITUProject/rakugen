@@ -12,7 +12,7 @@ hero:
           link: /directory
         - theme: alt
           text: 投稿与贡献
-          link: /api-examples
+          link: /contribute
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

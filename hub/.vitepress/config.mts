@@ -16,6 +16,8 @@ export default defineConfig({
 
         sidebar: sidebar,
 
+        outline: 'deep',
+
         socialLinks: [{ icon: 'github', link: 'https://github.com/alongw/rakugen' }],
 
         search: {

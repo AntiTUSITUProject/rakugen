@@ -12,6 +12,10 @@ const sidebar: DefaultTheme.Sidebar = {
                 {
                     text: 'About',
                     link: '/about'
+                },
+                {
+                    text: 'Contribute',
+                    link: '/contribute'
                 }
             ]
         }
